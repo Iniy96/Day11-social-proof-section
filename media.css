@@ -1,0 +1,99 @@
+@media (min-width:800px) {
+    body {
+        width: 100%;
+        min-height: 100vh;
+        padding: 2em 3em 0 3em;
+        font-family: var(--font-family);
+        background: url(./images/bg-pattern-bottom-desktop.svgs),
+        url(./images/bg-pattern-top-desktop.svg);
+          background-repeat: no-repeat;
+          background-position: right bottom, top left;
+      }
+      .top-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 85%;
+       
+      }
+      .top-content-text{
+        width: 40%;
+      }
+      .main-heading{
+        margin-left: 0;
+        font-size: 45px;
+        text-align: left;
+      }
+      .main-paragraph{
+        text-align: left;
+        line-height: 1.2;
+      }
+      /* *************rating ********************* */
+      .rating-container{
+        align-items: flex-end;
+        margin:auto 0 ;
+        width: 70%;
+      }
+      .rating-box {
+        background-color: var(--Light-Grayish-Magenta);
+        width: 63%;
+        border-radius: 8px;
+        padding: 0.3em 0em;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .rating-box .rating-text {
+        font-size: 14px;
+        padding-left: 20px;
+      }
+      .first-rating{
+        margin-right: 8em;
+      }
+      .second-rating{
+        margin-right: 4em;
+      }
+      /* ****************** Reviews***************** */
+      
+.review-container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    padding-top: 1.5em;
+  }
+  .review-box {
+    width: 32%;
+    margin: 0;
+    padding: 2em;
+    border-radius: 8px;
+  }
+  .name h2 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .name h3 {
+    font-weight: 200;
+    font-size: 17px;
+    padding-top: 8px;
+    color: var(--Soft-Pink);
+  }
+  .review-box p {
+    font-size: 16px;
+  }
+  .Irene{
+    position: relative;
+    top: 1em;
+  }
+  .Anne{
+    position: relative;
+    top: 2em;
+  }
+}
+/* *****************Attribution***************** */
+.attribution {
+    padding-top: 50px;
+  }
